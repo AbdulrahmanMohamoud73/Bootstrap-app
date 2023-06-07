@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+--russian-violet: #2a1e5cff;
+--coquelicot: #f54014ff;
+--pale-dogwood: #ffddd2ff;
+--naples-yellow: #f5d547ff;
+--argentinian-blue: #63adf2ff;
+
+
+--russian-violet: hsla(252, 51%, 24%, 1);
+--coquelicot: hsla(12, 92%, 52%, 1);
+--pale-dogwood: hsla(15, 100%, 91%, 1);
+--naples-yellow: hsla(49, 90%, 62%, 1);
+--argentinian-blue: hsla(209, 85%, 67%, 1);
+*/
+
