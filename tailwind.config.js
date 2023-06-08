@@ -9,6 +9,13 @@ export default {
       fontFamily: {
         'Inter':['Inter', 'Sans-Serif']
       },
+
+      screens: {
+        'lg': '1135px',
+        'md': {'max': '875px'}
+    
+      },
+
     },
   },
   plugins: [],
