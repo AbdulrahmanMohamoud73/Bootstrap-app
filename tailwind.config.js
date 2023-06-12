@@ -11,9 +11,9 @@ export default {
       },
 
       screens: {
-        'lg': '1135px',
-        'md': {'max': '875px'}
-    
+        'sm': {'max':'536px'},
+        'md': {'max':'718px'},
+        'lg': {'max':'935px'},
       },
 
     },

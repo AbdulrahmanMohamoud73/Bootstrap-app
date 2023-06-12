@@ -8,7 +8,7 @@ function About () {
     return (
         <>
         <section className="h-fit m-0 pb-0 w-full bg-gradient-to-b from-gray-100 to-gray-200">
-            <div className="grid lg:grid-cols-2 items-center gap-28 lg:pb-5 px-28">
+            <div className="grid lg:grid-cols-2 sm:p-0 sm:gap-0 sm:m-0 items-center gap-28 lg:pb-5 px-28">
                 <div>
                     <h1 className='font-Inter text-center font-semibold mb-10 text-7xl text-[#f56a14]'>Our range of solutions</h1>
                     <p className="text-[#2a1e5cff]  font-Inter text-xl text-center">
