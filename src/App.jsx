@@ -4,12 +4,13 @@ import Landing from './components/Landing'
 import { Route, Routes } from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
+import Feedback from './components/Feedback'
 function App() {
   
 
   return (
     <>
-      
+      <Feedback/>
         <Routes>
         <Route path="/Navbar" element={<Navbar/>} />
         <Route path="/" element={<Landing/>} />
