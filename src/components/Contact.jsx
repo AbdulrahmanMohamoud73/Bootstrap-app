@@ -7,7 +7,7 @@ const Contact = () => {
     <>
     
     <div className='h-screen w-screen bg-gray-50'>
-    <Navbar />
+    <Navbar currentPage={'contact'}  />
       <div className="bg-gray-50 max-w-full flex h-4/5 md:pt-5 object-cover flex-col justify-center items-center">
         <div className='p-0 m-0'>
           <h1 className="font-Inter mx-5 text-center text-[#63adf2ff] sm:text-5xl text-6xl">Contact Us</h1>

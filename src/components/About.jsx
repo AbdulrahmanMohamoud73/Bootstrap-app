@@ -3,10 +3,12 @@ import ciscoimg from "../assets/cisco_img.png"
 import paloalto from "../assets/palo alto.png"
 import checkpoint from "../assets/Check Point.png"
 import learn from "../assets/Webinar-bro.svg"
+import Navbar from './Navbar'
 
 function About () {
     return (
         <>
+        <Navbar currentPage={'about'} />
         <section className="h-fit m-0 pb-0 w-full bg-gradient-to-b from-gray-100 to-gray-200">
             <div className="grid lg:grid-cols-2 sm:p-0 sm:gap-0 sm:m-0 items-center gap-28 lg:pb-5 px-28">
                 <div>
