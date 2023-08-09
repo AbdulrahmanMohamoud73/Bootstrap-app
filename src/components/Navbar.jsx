@@ -13,7 +13,7 @@ function Navbar ({currentPage}){
 
     return (
         <>
-         <nav className={`flex items-center top-0  ${currentPage == 'home' ? 'md:justify-between justify-around' : 'justify-between'} w-full bg-white min-h-fit`}>
+         <nav className={`flex items-center top-0  ${currentPage == 'home' ? 'justify-around' : 'justify-between'} w-full bg-white min-h-fit`}>
           <Link to="/"><img src={logo} className={`logo px-12 pt-3 h-[7em]`}></img></Link>
           <ul className={`flex items-center ${currentPage == 'home' ? 'hidden' : ''} md:hidden mx-10`}>
             <Link to='/'>
@@ -26,10 +26,10 @@ function Navbar ({currentPage}){
             <li className={`mx-4 text-xl text-black hover:text-[#f56a14] font-Inter`}>Contact</li>
             </Link>
           </ul>
-          <button onClick={hamburger} className='md:block hidden mx-10 font-bold text-3xl'>☰</button>
+          <button onClick={hamburger} className={`mx-10 hidden font-bold text-3xl ${currentPage !== 'home' ?  'md:block' : 'hidden'}`}>☰</button>
         </nav>
         {/* Hamburger Navigaton */}
-            <ul className={`w-full h-96 flex flex-col align-middle ${Visiblity === true && currentPage !== 'home' ?  '' : 'hidden'}`}>
+            <ul className={`w-full h-96 flex flex-col align-middle ${Visiblity === true && currentPage !== 'home' ?  'hidden md:block' : 'hidden'}`}>
             
               <li className={`mx-auto h-1/3 w-1/4 leading-[90px]  text-center text-xl text-black hover:text-[#f56a14] font-Inter`}><Link to='/'>Home</Link></li>
              

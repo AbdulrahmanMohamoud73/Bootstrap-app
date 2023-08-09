@@ -29,8 +29,8 @@ function About () {
                 <div className='card'><img className='w-1/2' src={checkpoint}></img></div>
             </div>
         </section>
-        <div className='bg-gradient-to-b bg-slate-50 min-h-screen text-center'>
-        <div>
+        <div className='bg-gradient-to-b bg-white min-h-screen text-center'>
+        <div className='grid grid-cols-2 '>
             {/* <p className='font-Inter lg:pt-32 mx-10 text-center text-semibold text-xl'> We offer customized programs designed to equip individuals and teams with the expertise required to excel in the field of networking</p>
             </div>
             <div className='grid grid-cols-2 md:flex md:justify-center'>
@@ -42,8 +42,10 @@ function About () {
                     <h1 className='font-Inter text-3xl my-8'>Other Paths</h1>
                     <h1 className='font-Inter text-xl my-8'>CheckPoint CCSA</h1>
                     <h1 className='font-Inter text-xl my-8'>Palo Alto PCCSA</h1>
-                </div> */}
+                </div> 
                 <img className="md:hidden lg:h-3/4" src={learn}></img>
+                */}
+
             </div>
             </div>
         </>
