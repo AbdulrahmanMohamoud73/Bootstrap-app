@@ -8,9 +8,9 @@ import Navbar from './Navbar';
 const Landing = () => {
     return (
         <>
-        <div className='bg-slate-50 w-full h-screen overflow-auto'>
+        <div className='bg-white w-full h-screen overflow-auto'>
             <Navbar currentPage={'home'} />
-             <div className=' w-full flex justify-center bg-slate-50 pt-2 h-3/5'>
+             <div className=' w-full flex justify-center bg-white pt-2 h-3/5'>
                 <div className='grid grid-cols-2 gap-x-16 mt-8 lg:p-0 pl-10 lg:flex lg:flex-col lg:text-center grid-rows-2 object-contain items-center'>
                     <div className='row-span-2'>
                         <h1 className='font-bold font-Inter md:text-5xl md:mx-5 text-7xl mb-3'> We Do Networks </h1>

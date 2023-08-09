@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+
+    .card {
+        @apply w-1/2 md:w-4/5 h-48 flex items-center justify-center rounded-lg;
+    }
+}
 /*
 --russian-violet: #2a1e5cff;
 --coquelicot: #f54014ff;
